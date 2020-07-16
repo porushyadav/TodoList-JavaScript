@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To do list</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="main">
+        <h1 style="color: black;">TO-DO LIST</h1>
+        <form>
+          <input  class="text" type="text" placeholder="Type your Todo List" name="task">
+        </form>
+        <div class="task">
+            <div class="complete size"><i class="fas fa-check-double color" id="completed"></i><span id="left_task">Complete all task</span></div>
+            
+            
+   
+        </div>
+        <div class="tasksBoard">
+          <ul>
+          <!--
+          
+            <li><input type="checkbox" id="data"><label for="data"> Vanilla JavaScript <div class="hover"><i class="far fa-times-circle" ></i></div></label></li>
+            
+          -->
+        </ul>
+        </div>
+        <div class="task">
+            <div  class="complete size"><span id="task_left">0 </span> task left</div>
+            
+            <a id="delete" class="size">DeleteAll<img src="https://img.icons8.com/cute-clipart/64/000000/delete-forever.png" class="img_used"/></a>
+        </div>
+        
+      </div>
+     
+ <script  type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>
